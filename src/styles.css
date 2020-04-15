@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  font-size:100%;
+}
+
+
+.mygreen{
+  background-color: #203139;
+}
+
+.myred{
+  background-color: #c7473a;
+}
+
+.myblack{
+  background-color: #222f35;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+body{
+  font-size:80%;
+}
+
+
+ }

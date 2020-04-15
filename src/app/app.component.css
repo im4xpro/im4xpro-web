@@ -1,0 +1,54 @@
+/* Stylesheet for the im4xpro website */
+
+.main{
+  width:100%;
+  position: relative;
+}
+
+.main img{
+  width:100%;
+  height:auto;
+
+}
+
+
+.title{
+  z-index: 2;
+  position: absolute;
+  width:auto;
+  height:auto;
+  top: 10%;
+  left:5%;
+  text-align: left;
+
+}
+
+.myh1{
+  font-size:100px;
+  color: white;
+}
+
+
+.imagediv{
+  z-index:3;
+  position: absolute;
+  width:16em;
+  height:16em;
+  top:10%;
+  right:10%;
+  transform: translate(-20%, -30%);
+  background-color: #c7473a;
+  padding:2em;
+  border-radius: 20em;
+  box-shadow: 1px 1px 60px black;
+}
+
+.imagediv img{
+  position: absolute;
+  width:12em;
+  height:12em;
+  left:50%;
+  margin-left: -6em;
+  margin-top: 1.5em;
+
+}
