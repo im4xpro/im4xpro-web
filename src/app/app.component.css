@@ -119,3 +119,34 @@ line-height: 16em;
   font-size:100px;
   color:#c7473a;
 }
+
+.skillstext{
+  width:100%;
+  height:auto;
+  background-color:rgb(238, 238, 238);
+}
+
+.skillstext h2{
+  color: #c7473a;
+  font-size:36px;
+  margin-bottom: 1em;
+  margin: 0;
+}
+
+.skillstext p{
+  font-size:20px;
+  font-weight:300;
+  margin-left: 0.5em;
+}
+
+.skillstext i{
+  float:right;
+  font-size:34px;
+  margin-right:1em;
+  margin-top: 0.5em;
+  color: #203139;
+}
+
+.skillcontent{
+  padding: 2em;
+}
