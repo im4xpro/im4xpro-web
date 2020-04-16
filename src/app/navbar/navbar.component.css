@@ -28,3 +28,12 @@ a{
   text-decoration: none;
   color: #c7473a;
 }
+
+.brandname{
+  float: left;
+  color: #c7473a;
+  margin-left: 1em;
+  font-size: 34px;
+  font-weight: 300;
+  margin-top: 0.4em;
+}
