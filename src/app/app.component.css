@@ -3,6 +3,8 @@
 .main{
   width:100%;
   position: relative;
+  background-color: #222f35;
+  border-bottom:5px solid #c7473a;
 }
 
 .main img{
@@ -51,4 +53,69 @@
   margin-left: -6em;
   margin-top: 1.5em;
 
+}
+
+
+.aboutme{
+  z-index:2;
+  position: absolute;
+  width: 80%;
+  height:auto;
+  top:70%;
+  text-align: center;
+  left:50%;
+  margin-left: -40%;
+}
+
+.myh2{
+  color:white;
+  font-size: 80px;
+  font-weight:300;
+  margin: 0;
+}
+
+.myh3{
+  color:#333;
+  font-weight: 300;
+  font-size:24px;
+
+}
+
+
+.skills{
+  position: absolute;
+  width:60em;
+  height:auto;
+  z-index: 2;
+  top:80%;
+  left:50%;
+  margin-left: -30em;
+  margin-top:5em;
+}
+
+.skill{
+float: left;
+width:12em;
+height:12em;
+border-radius: 20em;
+background-color: #203139;
+box-shadow: 5px 10px 35px black;
+text-align: center;
+line-height: 16em;
+}
+
+.skill-html{
+  margin-right: 4em;
+}
+.skill-css{
+  margin-right:4em;
+}
+
+.skill-js{
+  margin-right: 4em;
+}
+
+.skill i{
+  font-size:100px;
+  color:#c7473a;
 }
