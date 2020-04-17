@@ -85,11 +85,11 @@
 .skills{
   position: absolute;
   width:60em;
-  height:auto;
+  height:12em;
   z-index: 2;
   top:80%;
   left:50%;
-  margin-left: -30em;
+  margin-left: -29em;
   margin-top:5em;
 }
 
@@ -102,17 +102,26 @@ background-color: #203139;
 box-shadow: 5px 10px 35px black;
 text-align: center;
 line-height: 16em;
+transition: 0.5s;
+}
+
+.skill:hover{
+  padding: 0.5em;
+  cursor:pointer;
+
 }
 
 .skill-html{
-  margin-right: 4em;
+  margin-right: 3em;
+
 }
+
 .skill-css{
-  margin-right:4em;
+  margin-right:3em;
 }
 
 .skill-js{
-  margin-right: 4em;
+  margin-right: 3em;
 }
 
 .skill i{
@@ -146,6 +155,7 @@ line-height: 16em;
   margin-top: 0.5em;
   color: #203139;
 }
+
 
 .skillcontent{
   padding: 2em;
