@@ -8,7 +8,8 @@ import lax from 'lax.js';
 export class AppComponent {
   title = 'im4xpro-web';
   titleword: string = "design";
-
+  element : any;
+  activeSkill : any;
 ngOnInit(){
   window.onload = function() {
 	lax.setup() // init
@@ -23,4 +24,14 @@ ngOnInit(){
 
 }
 
+openSkill(){
+  
+
+}
+
+closeSkill(){
+  this.element = document.getElementById("skillstext");
+  this.element.style.display = "none";
+  this.activeSkill = "";
+}
 }
