@@ -14,10 +14,10 @@
         </div>
 
         <div class="skills">
-            <div class="skill skill-html" id="skill-html"><i class="fab fa-html5" (click)="openSkill(this.id)"></i></div>
-            <div class="skill skill-css" id="skill-css"><i class="fab fa-css3" (click)="openSkill(this.id)"></i></div>
-            <div class="skill skill-js" id="skill-js"><i class="fab fa-js" (click)="openSkill(this.id)"></i></div>
-            <div class="skill skill-angular" id="skill-angular"><i class="fab fa-angular" (click)="openSkill(this.id)"></i></div>
+            <div class="skill skill-html" id="skill-html" (click)="openSkill('HTML')"><i class="fab fa-html5"></i></div>
+            <div class="skill skill-css" id="skill-css"  (click)="openSkill('CSS')"><i class="fab fa-css3"></i></div>
+            <div class="skill skill-js" id="skill-js" (click)="openSkill('JAVASCRIPT')"><i class="fab fa-js"></i></div>
+            <div class="skill skill-angular" id="skill-angular"  (click)="openSkill('ANGULAR')"><i class="fab fa-angular"></i></div>
           </div>
 
 
@@ -25,8 +25,11 @@
   <div class="skillstext" id="skillstext">
     <i class="fas fa-times" id="closeSkill" (click)="closeSkill()"></i>
     <div class="skillcontent">
-    <h2>{{activeSkill}}</h2>
-    <p> I discovered HTML when I was 12 years old, because I wanted to learn how to make a cool looking website.</p>
+    <h2 id="skillsh2">{{activeSkill}}</h2>
+    <p class="skillparagraph" id="text-html"> HTML is structure</p>
+    <p class="skillparagraph" id="text-css">CSS is style</p>
+    <p class="skillparagraph" id="text-js">Javascript is code</p>
+    <p class="skillparagraph" id="text-angular">Angular is awesome</p>
     </div>
     </div>
 <app-footer></app-footer>

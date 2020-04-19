@@ -4,7 +4,7 @@
   width:100%;
   position: relative;
   background-color: #222f35;
-  border-bottom:5px solid #c7473a;
+
 }
 
 .main img{
@@ -132,7 +132,11 @@ transition: 0.5s;
 .skillstext{
   width:100%;
   height:auto;
-  background-color:rgb(238, 238, 238);
+
+   background-color:rgb(238, 238, 238);
+  border-top:5px solid #c7473a;
+  display: none;
+
 }
 
 .skillstext h2{
@@ -140,12 +144,15 @@ transition: 0.5s;
   font-size:36px;
   margin-bottom: 1em;
   margin: 0;
+  animation-name: skillanimation;
+  animation-duration: 2s;
 }
 
 .skillstext p{
   font-size:20px;
   font-weight:300;
   margin-left: 0.5em;
+
 }
 
 .skillstext i{
@@ -153,10 +160,23 @@ transition: 0.5s;
   font-size:34px;
   margin-right:1em;
   margin-top: 0.5em;
-  color: #203139;
+  color: #222f35;
 }
 
+.skillstext i:hover{
+  color:#c7473a;
+  cursor:pointer;
+}
 
+.skillstext i:active{
+  font-size:30px;
+  margin-right: 1.2em;
+}
 .skillcontent{
   padding: 2em;
+}
+
+.skillparagraph{
+  display: none;
+  color:#222f35;
 }
