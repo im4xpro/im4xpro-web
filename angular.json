@@ -117,8 +117,13 @@
               "devServerTarget": "im4xpro-web:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "im4xpro-web"
 }
