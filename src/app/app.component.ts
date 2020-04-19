@@ -10,7 +10,9 @@ import lax from 'lax.js';
 })
 export class AppComponent {
   title = 'im4xpro-web';
-  titleword: string = "design";
+  titleword: string = "designe";
+  titlewords = ["designe", "entwickle", "bestimme", "realisiere", "hol mir"];
+  titlenum : number = 0;
   element : any;
   activeSkill : string;
 
@@ -30,7 +32,7 @@ ngOnInit(){
 
 	window.requestAnimationFrame(updateLax)
 }
-
+this.changeText();
 }
 
  openSkill(skill){
@@ -67,5 +69,15 @@ skillreset(){
   this.element.style.display = "none";
   this.element = document.getElementById("text-angular");
   this.element.style.display = "none";
+}
+
+
+changeText(){
+this.titleword = this.titlewords[this.titlenum];
+if(this.titlenum == 4){
+  this.titlenum = 0;
+}else{
+  this.titlenum++;
+}
 }
 }
