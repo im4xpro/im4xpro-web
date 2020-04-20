@@ -319,5 +319,42 @@ transition: 0.5s;
 }
 
 @media screen and (device-width:375px){
-  
+
+  .main img{
+    height:80em;
+  }
+  .myh1{
+    font-size: 70px;
+
+  }
+
+  .imagediv{
+    width: 9em;
+    height:9em;
+    left:60%;
+  }
+
+  .imagediv img{
+    width:7em;
+    height:7em;
+    left:50%;
+    margin-left: -3.5em;
+    margin-top: 1em;
+  }
+
+
+  .aboutme{
+    top:65%;
+  }
+  .skills{
+    top:75%;
+  }
+  .myh2{
+    font-size: 40px;
+
+  }
+
+  .myh3{
+    font-size:20px;
+  }
 }
