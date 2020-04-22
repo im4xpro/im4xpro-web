@@ -268,7 +268,7 @@ transition: 0.5s;
 /* ----------------------- */
 /* MEDIA QUARIES*/
 
-@media screen and (device-width:768px){
+@media screen and (max-device-width:800px){
 
   .aboutme{
     top:60%;
@@ -316,12 +316,16 @@ transition: 0.5s;
     font-size:80px;
     color:#c7473a;
   }
+
+  #project1{
+    margin-left:20%;
+  }
 }
 
-@media screen and (device-width:375px){
+@media screen and (max-device-width:500px){
 
   .main img{
-    height:80em;
+    height:100em;
   }
   .myh1{
     font-size: 70px;
@@ -344,10 +348,17 @@ transition: 0.5s;
 
 
   .aboutme{
-    top:65%;
+    top:60%;
   }
   .skills{
-    top:75%;
+    top:70%;
+    width:27em;
+    height:26em;
+    margin-left: -11em;
+  }
+
+  .skill{
+    margin-bottom: 3em;
   }
   .myh2{
     font-size: 40px;
@@ -356,5 +367,35 @@ transition: 0.5s;
 
   .myh3{
     font-size:20px;
+    color:lightgrey;
+  }
+  #project1{
+    left:50%;
+    margin-left: -10em;
+  }
+}
+
+
+@media screen and (max-device-width:400px){
+  .imagediv{
+    left:50%;
+    top:8%;
+  }
+
+  .skills{
+    width:20em;
+    margin-left: -10em;
+  }
+  .skill-html{
+    margin-right: 2em;
+  }
+  .skill-js{
+    margin-right: 2em;
+  }
+  .skill-css{
+    margin-right:0;
+  }
+  .skill-angular{
+    margin-right: 0;
   }
 }
